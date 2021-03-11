@@ -34,7 +34,7 @@
       >
      </v-app-bar-nav-icon>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" fixed right>
+    <v-navigation-drawer v-model="drawer" fixed temporary right>
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
