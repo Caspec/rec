@@ -1,0 +1,35 @@
+.heading {
+    font-size: 3em;
+}
+
+.headingsale {
+    font-size: 2em;
+}
+
+.headingcolor {
+   color: #003761 !important;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.grow-none {
+    flex-grow: 0 !important;
+}
+
+.v-card--link:hover {
+    background-color:#e0e0e0 !important;
+  }
+
+.lightbgoverlay {
+    background-color: #EEF3F8;
+  }
+
+  .v-bottom-navigation-new {
+      box-shadow: 0px 0px 0px 0px !important;
+  }
+
+  .theme--light-bottom-navigation-new {
+      background-color: unset !important;
+  }
