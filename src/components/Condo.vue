@@ -36,7 +36,7 @@
     <v-container fluid class="lightbgoverlay pb-8">
       <v-row no-gutters justify="center">
         <v-card
-          class="ml-4 my-2 card-mobile"
+          class="ml-4 my-2"
           max-width="344"
           v-for="item in condo"
           :key="item.id"
@@ -164,11 +164,5 @@ export default {
 
 .costinfo {
     border-top: 1px solid #000;
-}
-
-@media screen and (max-width: 768px) {
-  .card-mobile {
-    margin-left: 0px !important;
-  }
 }
 </style>
