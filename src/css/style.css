@@ -33,3 +33,11 @@
   .theme--light-bottom-navigation-new {
       background-color: unset !important;
   }
+
+  .linkcolor {
+    color: #42A5F5 !important;
+  }
+
+  .linkblack {
+      color: #000 !important;
+  }

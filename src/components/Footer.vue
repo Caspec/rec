@@ -5,7 +5,9 @@
       <v-col class="my-2 pl-2 ml-4 footer_column" cols="8" md="2" v-for="item in footer" :key="item.header">
         <h4 class="font-weight-medium footer_title">{{ item.header }}</h4> 
         <v-row no-gutters v-for="linkitem in item.link" :key="linkitem.text">
-          <v-col>{{ linkitem.text}}</v-col>
+          <v-col>
+            <router-link :to="linkitem.route" class="none linkcolor">{{ linkitem.text}}</router-link>
+          </v-col>
         </v-row>
       </v-col>
     </v-row>
@@ -42,7 +44,7 @@ export default {
         },
         { 
           header: "About REC24", link: [ 
-        { text: "About REC24", route: "About REC24"}, { text: "Job at REC24", route: "Job at REC24"}, { text: "Become a franchisee", route: "Become a franchisee"}
+        { text: "About REC24", route: "about"}, { text: "Job at REC24", route: "Job at REC24"}, { text: "Become a franchisee", route: "Become a franchisee"}
         ] 
         },
       ]
